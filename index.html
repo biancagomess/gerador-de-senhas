@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/scripts.js" defer></script>
+    <title>Gerador de Senha</title>
+</head>
+
+<body>
+    <div id="register-container">
+        <div id="register-banner">
+            <div id="banner-layer">
+                <h1>Seja Bem Vindo!</h1>
+            </div>
+        </div>
+        <div id="register-form">
+            <h2>Crie sua conta</h2>
+            <p>
+                Registre-se para utilizar todas as funcionalidades do sistema
+            </p>
+            <form action="" name="formulario" id="form">
+                <div class="form-control">
+                    <label for="name">Nome</label>
+                    <input type="text" name="name" id="name" class="" placeholder="Digite seu nome." maxlength="45"
+                        value="" required>
+                    <span class="error"></span>
+                </div>
+                <div class="form-control">
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email" placeholder="Digite seu email." value="" required
+                        maxlength="60" size="60">
+                    <span class="error"></span>
+                </div>
+                <div class="form-control">
+                    <label for="password">Senha</label>
+                    <div class="imgShowPassword" onclick="showPassword()">
+                        <img src="./img/visibility.png" id="showPassword" alt="Visualizar senha" title="Visualizar">
+                    </div>
+                    <input type="password" name="password" id="password" placeholder="Digite sua senha." maxlength="10"
+                        minlength="6">
+                    <span class="error"></span>
+                </div>
+                <p>Quer ajuda para criar uma senha segura? <span onclick="hideElement()" id="generate-password">Clique
+                        aqui.</span> </p>
+                <div id="generated-password">
+                    <p>Aqui está a sua senha:</p>
+                    <div class="infoPassword">
+                        <h4 id="passwordValue"></h4>
+                        <button id="copyPassword" title="Copiar" class="material-symbols-outlined">
+                            content_copy
+                        </button>
+                    </div>
+                    <button id="update" alt="Atualizar" title="Atualizar" class="material-symbols-outlined">
+                        autorenew
+                    </button>
+                </div>
+                <div class="form-control">
+                    <label for="confirmpassword">Confirme sua senha</label>
+                    <input type="password" name="confirmpassword" id="confirmpassword" placeholder="Confirme sua senha."
+                        maxlength="10">
+                    <span class="error"></span>
+                </div>
+                <div class="form-control">
+                    <input type="submit" value="Cadastrar" id="submitForm">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

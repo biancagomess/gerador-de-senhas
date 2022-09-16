@@ -1,0 +1,219 @@
+:root {
+    --red: #ff0000;
+    --gray: #333;
+    --grayFirst: #AAA;
+    --blue: #0097ff;
+    --green: #81d340;
+    --whiteFirst: #fdfdfd;
+    --white: #fff;
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--gray);
+}
+
+html,
+body {
+    min-height: 100%;
+}
+
+html {
+    background: linear-gradient(180deg, #ea02ff 0%, #0097ff 100%);
+}
+
+input:focus {
+    outline: none;
+}
+
+#register-container {
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+    max-width: 900px;
+    min-height: 80vh;
+    margin: 2rem auto;
+    display: flex;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+        rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+#register-banner {
+    background: url('../img/creating-an-account');
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+#banner-layer {
+    background-color: rgba(25, 11, 122, 0.7);
+    height: 100%;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+#register-banner h1 {
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+    color: var(--white);
+    word-spacing: 20rem;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+#register-form {
+    background-color: var(--whiteFirst);
+    padding: 2rem;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+#register-form h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+#register-form p {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 0.8rem;
+    color: var(--grayFirst);
+}
+
+.form-control {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-control label {
+    font-weight: bold;
+    margin-bottom: 0.6rem;
+}
+
+.imgShowPassword {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.form-control input {
+    border: none;
+    border-bottom: 1px solid var(--grayFirst);
+    padding: 0.6rem 0;
+}
+
+.form-control img {
+    width: 1rem;
+    cursor: pointer;
+}
+
+#generate-password {
+    font-weight: bold;
+    cursor: pointer;
+    transition: .4s;
+}
+
+#generate-password:hover {
+    color: var(--blue);
+}
+
+
+#register-form #generated-password {
+    border: 1px solid var(--blue);
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: .4rem;
+    color: var(--gray);
+    text-align: center;
+    margin-bottom: 1rem;
+    display: none;
+}
+
+
+#register-form #generated-password p {
+    color: var(--green);
+    margin-bottom: 0.5rem;
+}
+
+#register-form input[type="submit"] {
+    background: var(--green);
+    color: var(--gray);
+    opacity: .8;
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem 1.4rem;
+    max-width: 150px;
+    cursor: pointer;
+    align-self: flex-end;
+    transition: .4s;
+}
+
+#register-form input[type="submit"]:hover {
+    opacity: 1;
+    color: var(--white);
+}
+
+.material-symbols-outlined {
+    cursor: pointer;
+}
+
+button {
+    background: transparent;
+    border: none;
+}
+
+.infoPassword {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 2% 0;
+}
+
+span.error {
+    display: flex;
+    color: var(--red);
+    font-size: 12px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    #register-container {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+
+    #register-banner h1 {
+        font-size: 3rem;
+    }
+
+    #register-banner,
+    #register-form {
+        width: 100%;
+    }
+}
+
+
+@media only screen and (min-width: 768px) {
+    #register-container {
+        display: flex;
+        width: 80%;
+    }
+
+}
