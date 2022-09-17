@@ -14,9 +14,15 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias
 ---
 <h3 style="margin-top: 15px; font-weigth: bold">Como baixar o projeto:</h3>
 
+### Pré-requisitos 
+
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+- [Git](https://git-scm.com)
+- [Node.js](https://node.js.org/en/)
+
 ```bash
 # Clonar o repositório
-$ git clone 
+$ git clone < https://github.com/biancagomesalves/gerador-de-senhas.git >
 
 ```
 
