@@ -22,7 +22,7 @@ body {
 }
 
 html {
-    background: linear-gradient(180deg, #ea02ff 0%, #0097ff 100%);
+    background: linear-gradient(180deg, #fdbb2d 0%, #c3226b 100%);
 }
 
 input:focus {
@@ -52,7 +52,7 @@ input:focus {
 }
 
 #banner-layer {
-    background-color: rgba(25, 11, 122, 0.7);
+    background-color: rgb(122 11 11 / 5%);
     height: 100%;
     padding: 2rem;
     display: flex;

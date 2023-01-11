@@ -2,6 +2,7 @@
 
 ##  Sobre
 <p> É um projeto com um modelo de formulário para efetuar cadastro, que oferece ao usuário a possibilidade de gerar uma senha segura utilizando caracteres especiais, faciliando a cópia da senha oferecida. </p> 
+
 <span style="font-style: italic; font-size: 12px;"> 
 Este projeto foi criado com as orientações do @MatheusBatisti, porém as implementações feitas, como cópia de senha, validação dos campos do fomrulário, reload da geração de senha e Media queries foram feitas especificamentes por mim para treinar os conhecimentos em HTML, CSS e JavaScrip. </span>
 
@@ -16,7 +17,7 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias
 
 ```bash
 # Clonar o repositório
-$ git clone 
+$ git clone git@github.com:biancagomesalves/gerador-de-senhas.git
 
 ```
 
