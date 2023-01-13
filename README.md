@@ -10,13 +10,14 @@ Este projeto foi criado com as orientações do @MatheusBatisti, porém as imple
 ![gerador_de_senha](https://user-images.githubusercontent.com/81443381/190856466-e92fecf5-1554-49fe-943a-145b69ddd4ad.png)
 
 <h3 style="margin-top: 15px; font-weigth: bold">Tecnologias utilizadas</h3>
-Este projeto foi desenvolvido utilizando as seguintes tecnologias
+Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 - HTML
 - CSS
 - JavaScript
+- Node.Js
 ---
-<h3 style="margin-top: 15px; font-weigth: bold">Como baixar o projeto:</h3>
+<h3 style="margin-top: 15px; font-weigth: bold">Como clonar o projeto:</h3>
 
 ### Pré-requisitos 
 
