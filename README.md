@@ -7,7 +7,8 @@
 Este projeto foi criado com as orientações do @MatheusBatisti, porém as implementações feitas, como cópia de senha, validação dos campos do fomrulário, reload da geração de senha e Media queries foram feitas especificamentes por mim para treinar os conhecimentos em HTML, CSS e JavaScript. </span>
 
 
-![gerador_de_senha](https://user-images.githubusercontent.com/81443381/190856466-e92fecf5-1554-49fe-943a-145b69ddd4ad.png)
+![gerador-de-senhas](https://user-images.githubusercontent.com/81443381/232127003-6b789a5e-6149-454b-849f-eb689ce08ac7.png)
+
 
 <h3 style="margin-top: 15px; font-weigth: bold">Tecnologias utilizadas</h3>
 Este projeto foi desenvolvido utilizando as seguintes tecnologias:
